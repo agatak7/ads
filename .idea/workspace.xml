@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f642e8d1-fcc4-422f-8d57-89dc9dd84e77" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Heap/HeapTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HeapPos/Heap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HeapPos/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HeapPos/posTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sort/Sort1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sort/sorttest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Trees/BinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Trees/TreeIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Trees/TreeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SLList/Pair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SLList/SSList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,11 +42,49 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/HeapPos/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="306">
+              <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SLList/SSList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="298">
+              <caret line="146" column="59" lean-forward="true" selection-start-line="146" selection-start-column="59" selection-end-line="146" selection-end-column="59" />
+              <folding>
+                <element signature="e#435#436#0" expanded="true" />
+                <element signature="e#470#471#0" expanded="true" />
+                <element signature="e#569#570#0" expanded="true" />
+                <element signature="e#607#608#0" expanded="true" />
+                <element signature="e#752#753#0" expanded="true" />
+                <element signature="e#784#785#0" expanded="true" />
+                <element signature="e#864#865#0" expanded="true" />
+                <element signature="e#899#900#0" expanded="true" />
+                <element signature="e#1117#1118#0" expanded="true" />
+                <element signature="e#1144#1145#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/SLList/Pair.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
+              <folding>
+                <element signature="e#187#188#0" expanded="true" />
+                <element signature="e#211#212#0" expanded="true" />
+                <element signature="e#234#235#0" expanded="true" />
+                <element signature="e#258#259#0" expanded="true" />
+                <element signature="e#603#604#0" expanded="true" />
+                <element signature="e#654#655#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -59,7 +92,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/HeapPos/Heap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2142">
+            <state relative-caret-position="400">
               <caret line="126" column="1" selection-start-line="126" selection-start-column="1" selection-end-line="126" selection-end-column="1" />
               <folding>
                 <element signature="e#409#410#0" expanded="true" />
@@ -96,15 +129,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Sort/Sort1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Sort/sorttest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
@@ -133,35 +157,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Trees/BinaryTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="14" selection-start-column="14" selection-end-column="14" />
-              <folding>
-                <element signature="e#236#237#0" expanded="true" />
-                <element signature="e#266#267#0" expanded="true" />
-                <element signature="e#701#702#0" expanded="true" />
-                <element signature="e#727#728#0" expanded="true" />
-                <element signature="e#809#810#0" expanded="true" />
-                <element signature="e#836#837#0" expanded="true" />
-                <element signature="e#920#921#0" expanded="true" />
-                <element signature="e#948#949#0" expanded="true" />
-                <element signature="e#1076#1077#0" expanded="true" />
-                <element signature="e#1111#1112#0" expanded="true" />
-                <element signature="e#1241#1242#0" expanded="true" />
-                <element signature="e#1277#1278#0" expanded="true" />
-                <element signature="e#1409#1410#0" expanded="true" />
-                <element signature="e#1441#1442#0" expanded="true" />
-                <element signature="e#1577#1578#0" expanded="true" />
-                <element signature="e#1611#1612#0" expanded="true" />
-                <element signature="e#1657#1658#0" expanded="true" />
-                <element signature="e#1705#1706#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -173,7 +168,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -191,14 +186,8 @@
         <option value="$PROJECT_DIR$/src/HeapPos/Heap.java" />
         <option value="$PROJECT_DIR$/src/HeapPos/posTest.java" />
         <option value="$PROJECT_DIR$/src/HeapPos/Solution.java" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+        <option value="$PROJECT_DIR$/src/SLList/Solution.java" />
+        <option value="$PROJECT_DIR$/src/SLList/Pair.java" />
       </list>
     </option>
   </component>
@@ -251,6 +240,12 @@
               <item name="Implementation" type="b2602c69:ProjectViewProjectNode" />
               <item name="Implementation" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="SLList" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Implementation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Implementation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Sort" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -270,6 +265,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Algorithm-DataStructures/Year 2018-2019/Midterm practice/In-place heap sort.java" />
@@ -291,11 +287,32 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.posTest">
-    <configuration name="TreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SLLTest">
+    <configuration name="SLLTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
-      <option name="PACKAGE_NAME" value="Trees" />
-      <option name="MAIN_CLASS_NAME" value="Trees.TreeTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SLList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SLList" />
+      <option name="MAIN_CLASS_NAME" value="SLList.SLLTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SSLTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SLList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SLList" />
+      <option name="MAIN_CLASS_NAME" value="SLList.SSLTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -332,22 +349,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="posTest.testThreePositions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="untitled" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="HeapPos.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="HeapPos" />
-      <option name="MAIN_CLASS_NAME" value="HeapPos.posTest" />
-      <option name="METHOD_NAME" value="testThreePositions" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="posTest.testTwoPositions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <extension name="coverage">
@@ -366,11 +367,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SLLTest" />
+        <item itemvalue="JUnit.SSLTest" />
         <item itemvalue="JUnit.posTest" />
         <item itemvalue="JUnit.posTest.testTwoPositions" />
         <item itemvalue="JUnit.posTest.testNull" />
-        <item itemvalue="JUnit.posTest.testThreePositions" />
-        <item itemvalue="JUnit.TreeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -385,17 +386,11 @@
       <option name="presentableId" value="Default" />
       <updated>1575623898566</updated>
       <workItem from="1575623903396" duration="229000" />
-      <workItem from="1575627983440" duration="5986000" />
+      <workItem from="1575627983440" duration="6801000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="posTest - 2019.12.08 at 20h 03m 37s.xml">
-      <configuration name="posTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="posTest - 2019.12.08 at 20h 04m 27s.xml">
-      <configuration name="posTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="posTest - 2019.12.08 at 20h 04m 56s.xml">
       <configuration name="posTest" configurationId="JUnit" />
     </history-entry>
@@ -420,15 +415,21 @@
     <history-entry file="posTest_testTwoPositions - 2019.12.08 at 20h 06m 26s.xml">
       <configuration name="posTest.testTwoPositions" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="posTest_testTwoPositions - 2019.12.08 at 20h 07m 16s.xml">
+      <configuration name="posTest.testTwoPositions" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="posTest - 2019.12.08 at 20h 07m 59s.xml">
+      <configuration name="posTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6215000" />
+    <option name="totallyTimeSpent" value="7030000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22818792" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22818792" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -438,7 +439,7 @@
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49932885" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4986577" visible="true" weight="0.22096318" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4986577" visible="true" weight="0.22096318" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -448,7 +449,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5013423" side_tool="true" visible="true" weight="0.22096318" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5013423" side_tool="true" weight="0.22096318" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -459,6 +460,38 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22818792" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="0" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" sideWeight="0.49932885" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.4986577" visible="true" weight="0.22096318" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="CheckStyle" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5013423" side_tool="true" visible="true" weight="0.22096318" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -555,13 +588,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Heap/Heap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="77" column="39" selection-start-line="77" selection-start-column="39" selection-end-line="77" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/HeapPos/Heap.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -569,9 +595,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/HeapPos/posTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="10" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#151#152#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Heap/Heap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="77" column="39" selection-start-line="77" selection-start-column="39" selection-end-line="77" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/HeapPos/Heap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2142">
+        <state relative-caret-position="400">
           <caret line="126" column="1" selection-start-line="126" selection-start-column="1" selection-end-line="126" selection-end-column="1" />
           <folding>
             <element signature="e#409#410#0" expanded="true" />
@@ -594,22 +639,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/HeapPos/posTest.java">
+    <entry file="file://$PROJECT_DIR$/src/HeapPos/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="10" selection-end-column="6" />
+        <state relative-caret-position="306">
+          <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SLList/SSList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="146" column="59" lean-forward="true" selection-start-line="146" selection-start-column="59" selection-end-line="146" selection-end-column="59" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#151#152#0" expanded="true" />
-            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#435#436#0" expanded="true" />
+            <element signature="e#470#471#0" expanded="true" />
+            <element signature="e#569#570#0" expanded="true" />
+            <element signature="e#607#608#0" expanded="true" />
+            <element signature="e#752#753#0" expanded="true" />
+            <element signature="e#784#785#0" expanded="true" />
+            <element signature="e#864#865#0" expanded="true" />
+            <element signature="e#899#900#0" expanded="true" />
+            <element signature="e#1117#1118#0" expanded="true" />
+            <element signature="e#1144#1145#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/HeapPos/Solution.java">
+    <entry file="file://$PROJECT_DIR$/src/SLList/Pair.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="612">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="e#187#188#0" expanded="true" />
+            <element signature="e#211#212#0" expanded="true" />
+            <element signature="e#234#235#0" expanded="true" />
+            <element signature="e#258#259#0" expanded="true" />
+            <element signature="e#603#604#0" expanded="true" />
+            <element signature="e#654#655#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
