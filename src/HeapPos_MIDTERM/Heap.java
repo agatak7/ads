@@ -1,4 +1,4 @@
-package HeapPos;
+package HeapPos_MIDTERM;
 class Heap {
     private int size = 0;
     private Heap.Node root;

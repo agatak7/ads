@@ -1,4 +1,4 @@
-package Sort;
+package Sorting;
 
 public class Sort1 {
     public static void foo(int n, int[] elements) {

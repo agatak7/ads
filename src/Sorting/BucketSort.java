@@ -1,5 +1,5 @@
 
-package Sort;
+package Sorting;
 
 import java.util.*;
 

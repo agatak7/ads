@@ -1,4 +1,4 @@
-package HeapPos;
+package HeapPos_MIDTERM;
 
 class Solution {
     /**

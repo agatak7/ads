@@ -1,6 +1,5 @@
-package Sort;
+package Sorting;
 
-import Sort.Sort1;
 import org.junit.Test;
 
 import static org.junit.Assert.assertArrayEquals;
