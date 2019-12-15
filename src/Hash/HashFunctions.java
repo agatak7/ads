@@ -35,7 +35,8 @@ class GNUCPPHash extends HashTable {
         for(int i = 0; i < item.length(); i++ ) {
             b = 4 * b + item.charAt(i);
         }
-        b = b & 2147483647;
+        //last 31 bits of b
+        b = ((1 << 31) - 1) & b;
         return b % size;
     }
 }
@@ -55,7 +56,8 @@ class GNUCC1Hash extends HashTable {
         for(int i = 0; i<item.length(); i++) {
             b = 613 * b + item.charAt(i);
         }
-        b = b & 1073741823;
+        //last 30 bits of b
+        b = ((1 << 30) - 1) & b;
         return b % size;
     }
 }
