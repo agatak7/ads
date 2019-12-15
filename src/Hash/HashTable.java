@@ -47,7 +47,11 @@ abstract class HashTable {
      */
     @SuppressWarnings("unchecked")
     public HashTable(int capacity) {
-        // TODO
+        if(capacity<=0) {throw new IllegalArgumentException();}
+        myTable = new LinkedList[capacity];
+        for(int i = 0; i< capacity; i++) {
+            myTable[i] = new LinkedList<Entry>();
+        }
     }
 
     /**
@@ -59,7 +63,15 @@ abstract class HashTable {
      *     that is identified by the key.
      */
     public void put(String key, Integer value) {
-        // TODO
+        int index = this.hash(key);
+        if(containsKey(key)){
+            for(int i = 0; i< myTable[index].size(); i++) {
+                Entry entry = myTable[index].get(i);
+                if (entry.equals(key)) myTable[index].set(i, new Entry(key, value));
+            }
+        } else {
+            myTable[index].add(new Entry(key, value));
+        }
     }
 
     /**
@@ -68,8 +80,8 @@ abstract class HashTable {
      * @return true iff the key is in the HashTable.
      */
     public boolean containsKey(String key) {
-        // TODO
-        return false;
+        if(get(key) == null) return false;
+        else return true;
     }
 
     /**
@@ -80,7 +92,10 @@ abstract class HashTable {
      * @return the value associated with the key or `null` if the key is not in the HashTable.
      */
     public Integer get(String key) {
-        // TODO
+        int index = this.hash(key);
+        for(int i = 0; i<myTable[index].size(); i++) {
+            if(myTable[index].get(i).equals(key)) return myTable[index].get(i).getValue();
+        }
         return null;
     }
 

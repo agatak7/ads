@@ -14,7 +14,34 @@ class MySet extends HashSet<String> {
      */
     public MySet union(MySet that) {
         MySet result = new MySet();
-        // TODO
+        Iterator<String> one = this.iterator();
+
+        if(that!=null) {
+            Iterator<String> two = that.iterator();
+
+            String uno;
+            String dos;
+
+            while(one.hasNext() && two.hasNext()) {
+                uno = one.next();
+                dos = two.next();
+                if(!result.contains(uno)) result.add(uno);
+                if(!result.contains(dos)) result.add(dos);
+            }
+
+            while(one.hasNext()) {
+                uno = one.next();
+                if(!result.contains(uno)) result.add(uno);
+            }
+
+            while(two.hasNext()) {
+                dos = two.next();
+                if(!result.contains(dos)) result.add(dos);
+            }
+        }else {
+            while(one.hasNext()) result.add(one.next());
+        }
+
         return result;
     }
 
@@ -23,7 +50,16 @@ class MySet extends HashSet<String> {
      */
     public MySet intersection(MySet that) {
         MySet result = new MySet();
-        // TODO
+
+        if(that!=null) {
+            Iterator<String> it = this.iterator();
+            String x;
+
+            while(it.hasNext()) {
+                x = it.next();
+                if(that.contains(x)) result.add(x);
+            }
+        }
         return result;
     }
 
@@ -32,7 +68,21 @@ class MySet extends HashSet<String> {
      */
     public MySet difference(MySet that) {
         MySet result = new MySet();
-        // TODO
+
+        Iterator<String> it = this.iterator();
+
+        if(that!=null) {
+
+            String x;
+
+            while(it.hasNext()) {
+                x = it.next();
+                if(!that.contains(x)) result.add(x);
+            }
+
+        }else {
+            while(it.hasNext()) result.add(it.next());
+        }
         return result;
     }
 
@@ -41,7 +91,13 @@ class MySet extends HashSet<String> {
      */
     public MySet exclusiveOr(MySet that) {
         MySet result = new MySet();
-        // TODO
+        if(that!=null) {
+            MySet one = this.difference(that);
+            MySet two = that.difference(this);
+
+            result = one.union(two);
+        }else result = this.union(that);
+
         return result;
     }
 
@@ -49,9 +105,15 @@ class MySet extends HashSet<String> {
      * @return a String representation of a MySet object
      */
     public String toString() {
-        // TODO
+        Iterator<String> it = this.iterator();
+        String result = "<MySet{";
+        while(it.hasNext()) {
+            String add = it.next();
+            if(it.hasNext()) result+=add+",";
+            else result+=add+"}>";
 
-        return null;
+        }
+        return result;
     }
 }
 
