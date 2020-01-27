@@ -14,6 +14,48 @@ public class RadixSort {
      *     If `words` equals `null`.
      */
     static List<String> radixSortMSD(List<String> words) {
-       return new ArrayList<>();
+        if(words == null) throw new NullPointerException();
+        return sort(words, 0);
+    }
+
+
+    /**
+     *Radix Sort - A version of BUCKET SORT:
+     * Keep an array of buckets (length of the alphabet)
+     * For each index that we're sorting on, add the words to the
+     * correct bucket of that letter, then RECURSIVELY call sort on
+     * each bucket going to the next index!
+     */
+    @SuppressWarnings("unchecked")
+    static List<String> sort(List<String> words, int index) {
+        List<String> result = new ArrayList<>();
+        //Bucket array of size of alphabet
+        List<String>[] buckets = new List[26];
+
+        //initialize buckets!
+        for(int i = 0; i < buckets.length; i++) {
+            buckets[i] = new ArrayList<>();
+        }
+
+        //if the word is < index, it is already sorted!
+        //else add to bucket.
+        for(String i : words) {
+            if (i.length() - 1 < index) {
+                result.add(i);
+            } else {
+                buckets[ (int) i.charAt(index) - (int) 'a'].add(i);
+            }
+        }
+
+        //recursively sort buckets for next index and add to result.
+        for(int i = 0; i < buckets.length; i++) {
+            if(buckets[i].size() > 0) {
+                buckets[i] = sort(buckets[i], index + 1);
+                result.addAll(buckets[i]);
+            }
+        }
+
+        return result;
+
     }
 }

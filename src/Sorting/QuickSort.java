@@ -1,6 +1,7 @@
 package Sorting;
 
-public class QuickSort {
+public class
+QuickSort {
 
     public static void quickSort(int[] elements) {
         inPlaceQuickSort(elements, 0, elements.length - 1);
